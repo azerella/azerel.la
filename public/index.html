@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adam Zerella</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 1.2rem;
+    }
+
+    code {
+      overflow-wrap: break-word;
+      text-rendering: optimizelegibility;
+      text-size-adjust: 100%;
+      white-space: pre;
+      color: rgb(57, 58, 52);
+      font-weight: 400;
+      font-size: 18px;
+      background-color: gray;
+      border-radius: 0.33rem;
+      padding: 0 0.25rem 0 0.25rem;
+    }
+
+    :focus {
+      outline: 0.2rem solid #fff;
+    }
+
+    .link {
+      color: hotpink;
+      text-decoration: none;
+    }
+
+    .link:hover {
+      border-bottom: 0.15rem solid hotpink;
+    }
+
+    .container {
+      padding: 2rem 5rem 2rem 5rem;
+      background-color: #000;
+      margin: 0 auto;
+      color: #fff;
+    }
+
+    .container .container__picture {
+      margin: 0 auto;
+      text-align: center;
+      left: 0;
+      min-width: 4rem;
+      min-height: 3rem;
+    }
+
+    .container .container__title {
+      font-size: 5rem;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .container .container__quote {
+      font-size: 1.6rem;
+      padding: 0 0 0 2rem;
+      line-height: 1.4;
+      border-radius: 0.15rem;
+      margin: 1rem 0 2.5rem 1.5rem;
+      position: relative;
+      border-left: 0.75rem solid hotpink;
+      padding: 1rem;
+      box-shadow: 1px 1px 0px #252525, 2px 2px 0px #252525;
+    }
+
+    /* .container .container__quote::before {
+      content: " ";
+      border-left: 0.4rem solid #fff;
+      position: absolute;
+      padding: 1rem;
+      top: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    .container .container__quote::after {
+      content: " ";
+      border-left: 0.4rem solid hotpink;
+      position: absolute;
+      padding: 1rem;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      transform: rotate(-20deg);
+    } */
+
+    .container .container__text {
+      font-size: 1.4rem;
+    }
+
+    .container .container__list {
+      list-style: none;
+      padding: 0;
+      margin: 4rem 0 0 0;
+    }
+
+    .container .container__footer {
+      border-top: 0.1rem solid hotpink;
+      width: 50%;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 4rem;
+      padding: 1.25rem;
+    }
+
+    .container .container__footer__img {
+      width: 2rem;
+      height: 2rem;
+      padding: 0 0.25rem 0 0.25rem;
+    }
+  </style>
+  <body>
+    <main class="container">
+      <img src="#" alt="Adam Zerella logo" class="container__picture" />
+      <h1 class="container__title">Hey, I'm Adam</h1>
+      <blockquote class="container__quote">
+        I consult, build and contribute to a whole gamut of tech companies and
+        government agencies, primarily in the blockchain space.
+      </blockquote>
+      <p class="container__text">
+        I'm currently developing internal tooling over at
+        <a class="link" href="#">Parity</a>.
+      </p>
+      <ul class="container__list">
+        <li class="container__list_item">
+          <h2><a class="link" href="#">DefinitelyTyped</a> contributions</h2>
+          <p>30+ TypeScript package contributions for the OSS community.</p>
+          <a class="link" href="#">Check it out</a>
+        </li>
+        <li class="container__list_item">
+          <h2>Linux Kernel patches</h2>
+          <p>10+ Contributions to the world's most powerful project.</p>
+          <a class="link" href="#">Check it out</a>
+        </li>
+        <li class="container__list_item">
+          <h2>Hacker News Dark Mode browser extenstion</h2>
+          <p>
+            An opinionated Dark Theme browser extension for the popular forum,
+            Hacker News.
+          </p>
+          <a class="link" href="#">Check it out</a>
+        </li>
+        <li class="container__list_item">
+          <h2>Rollup plugin - <code>manifest.json</code></h2>
+          <p>
+            Automatically generate the manifest file to turn your web app into a
+            PWA using Rollup.
+          </p>
+          <a class="link" href="#">Check it out</a>
+        </li>
+        <li class="container__list_item">
+          <h2>Medium posts</h2>
+          <p>Bits and pieces I've written about in the tech world</p>
+          <a class="link" href="#">Check it out</a>
+        </li>
+      </ul>
+      <footer class="container__footer">
+        <div>
+          <a href="#">
+            <img
+              class="container__footer__img"
+              src="assets/img/github.svg"
+              alt="GitHub"
+            />
+          </a>
+          <a href="#"
+            ><img
+              class="container__footer__img"
+              src="assets/img/github.svg"
+              alt="Twitter"
+          /></a>
+          <a href="#"
+            ><img
+              class="container__footer__img"
+              src="assets/img/github.svg"
+              alt="Mail"
+          /></a>
+          <a href="#"
+            ><img
+              class="container__footer__img"
+              src="assets/img/github.svg"
+              alt="Telegram"
+          /></a>
+          <a href="#">
+            <img
+              class="container__footer__img"
+              src="assets/img/linkedin.svg"
+              alt="LinkedIn"
+            />
+          </a>
+        </div>
+        <div>
+          <img src="#" alt="Adam Zerella logo" />
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
