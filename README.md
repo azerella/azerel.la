@@ -1,3 +1,3 @@
-# Hey, I'm Adam
+# azerel.la
 
-> I build software on the web for tech companies and government agencies, mostly in the blockchain space.
+My personal site
