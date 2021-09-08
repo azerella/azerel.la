@@ -5,6 +5,7 @@
   "description": "My personal site",
   "scripts": {
     "build": "rollup -c rollup.config.ts",
+    "build:prod": "NODE_ENV=production; rollup -c rollup.config.ts",
     "dev": "rollup -c rollup.config.ts -w"
   },
   "repository": {
