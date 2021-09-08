@@ -5,8 +5,7 @@
   "description": "My personal site",
   "scripts": {
     "build": "rollup -c rollup.config.ts",
-    "dev": "rollup -c rollup.config.ts -w",
-    "lint": ""
+    "dev": "rollup -c rollup.config.ts -w"
   },
   "repository": {
     "type": "git",
