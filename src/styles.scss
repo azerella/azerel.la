@@ -29,6 +29,7 @@ body {
   background-color: #000;
   margin: 0 auto;
   color: #fff;
+  height: 100%;
 
   @media (max-width: 768px) {
     padding: 1rem 3rem 1rem 3rem;
@@ -90,6 +91,8 @@ body {
     padding: 1.25rem;
 
     &__link {
+      text-decoration: none;
+
       &:not(:first-child) {
         margin-left: 1rem;
 
