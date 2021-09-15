@@ -60,12 +60,14 @@ body {
     margin: 1rem 0 2rem 0;
     position: relative;
     border-left: 0.75rem solid hotpink;
+    // border-left-width: 0.75rem;
+    // border-left-style: solid;
+    // border-image: linear-gradient(20deg, #ff69b4 15%, #000 75%) 1 35%;
     padding: 1rem;
-    box-shadow: #252525 1.95px 1.95px 2.6px;
   }
 
   &__text {
-    font-size: 1.6rem;
+    font-size: 1.45rem;
     padding: 2rem 0 2rem 0;
   }
 
